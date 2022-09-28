@@ -1,1 +1,1 @@
-# Ethereum-DApp-boilerplate
+Ethereum DApp boilerplate
