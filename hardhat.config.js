@@ -1,3 +1,4 @@
+require('@nomicfoundation/hardhat-chai-matchers');
 require('@nomicfoundation/hardhat-toolbox');
 
 /** @type import('hardhat/config').HardhatUserConfig */
