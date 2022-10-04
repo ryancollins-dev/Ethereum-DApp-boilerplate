@@ -13,3 +13,13 @@
 6. click fetch greeting to view the greeting in the console
 
 7. Try to set a greeting
+
+Required functions
+
+`requestAccount()`
+`const provider = new ethers.providers.Web3Provider(window.ethereum);`
+`const signer = provider.getSigner();`
+`const contract = new ethers.Contract(greetingAddress,Greeting.abi,signer);`
+need async!
+`const transaction = await contract.setGreeting(greeting);`
+`await transaction.wait();`
